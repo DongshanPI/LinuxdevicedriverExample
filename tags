@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTHOR	hellword_drv/helloword.c	5;"	d	language:C	file:
+DESC	hellword_drv/helloword.c	6;"	d	language:C	file:
+HelloWord	hellword_drv/helloword.c	/^MODULE_DESCRIPTION(HelloWord);$/;"	v	language:C
+KERN_DIR	hellword_drv/Makefile	/^KERN_DIR = \/home\/book\/NezhaSTU\/eLinuxCore_dongshannezhastu\/linux\/$/;"	m	language:Make
+MIN	hellword_drv/hello_drv.c	24;"	d	language:C	file:
+deinit	hellword_drv/helloword.c	/^module_exit(deinit);$/;"	v	language:C
+deinit	hellword_drv/helloword.c	/^static void __exit deinit(void)$/;"	f	language:C	file:	signature:(void)
+hello_class	hellword_drv/hello_drv.c	/^static struct class *hello_class;$/;"	v	language:C	typeref:struct:class	file:
+hello_drv	hellword_drv/hello_drv.c	/^static struct file_operations hello_drv = {$/;"	v	language:C	typeref:struct:file_operations	file:
+hello_drv_close	hellword_drv/hello_drv.c	/^static int hello_drv_close (struct inode *node, struct file *file)$/;"	f	language:C	file:	signature:(struct inode *node, struct file *file)
+hello_drv_open	hellword_drv/hello_drv.c	/^static int hello_drv_open (struct inode *node, struct file *file)$/;"	f	language:C	file:	signature:(struct inode *node, struct file *file)
+hello_drv_read	hellword_drv/hello_drv.c	/^static ssize_t hello_drv_read (struct file *file, char __user *buf, size_t size, loff_t *offset)$/;"	f	language:C	file:	signature:(struct file *file, char __user *buf, size_t size, loff_t *offset)
+hello_drv_write	hellword_drv/hello_drv.c	/^static ssize_t hello_drv_write (struct file *file, const char __user *buf, size_t size, loff_t *offset)$/;"	f	language:C	file:	signature:(struct file *file, const char __user *buf, size_t size, loff_t *offset)
+hello_exit	hellword_drv/hello_drv.c	/^module_exit(hello_exit);$/;"	v	language:C
+hello_exit	hellword_drv/hello_drv.c	/^static void __exit hello_exit(void)$/;"	f	language:C	file:	signature:(void)
+hello_init	hellword_drv/hello_drv.c	/^module_init(hello_init);$/;"	v	language:C
+hello_init	hellword_drv/hello_drv.c	/^static int __init hello_init(void)$/;"	f	language:C	file:	signature:(void)
+init	hellword_drv/helloword.c	/^module_init(init);$/;"	v	language:C
+init	hellword_drv/helloword.c	/^static int __init init(void)$/;"	f	language:C	file:	signature:(void)
+kernel_buf	hellword_drv/hello_drv.c	/^static char kernel_buf[1024];$/;"	v	language:C	file:
+main	hellword_drv/hello_drv_test.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+major	hellword_drv/hello_drv.c	/^static int major = 0;$/;"	v	language:C	file:
